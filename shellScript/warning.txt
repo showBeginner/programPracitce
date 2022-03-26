@@ -1,0 +1,4 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+linuxba+  1488  2.2  7.4 3554664 301744 tty2   Sl+  18:29   1:11 /usr/bin/gnome-shell
+gdm       1094  0.2  5.3 3467844 213996 tty1   Sl+  18:27   0:08 /usr/bin/gnome-shell
+linuxba+  1886  0.1  4.2 1369480 171764 tty2   SLl+ 18:30   0:05 /usr/bin/gnome-software --gapplication-service

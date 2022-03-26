@@ -1,0 +1,93 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+gdm       1084  0.0  0.1 191168  5516 tty1     Ssl+ 18:27   0:00 /usr/lib/gdm3/gdm-wayland-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm       1088  0.0  0.3 552380 13864 tty1     Sl+  18:27   0:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm       1094  0.2  5.3 3467844 213996 tty1   Sl+  18:27   0:08 /usr/bin/gnome-shell
+gdm       1113  0.0  0.9 522516 38352 tty1     Sl+  18:28   0:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm       1145  0.0  0.1 428700  7996 tty1     Sl   18:28   0:00 ibus-daemon --xim --panel disable
+gdm       1148  0.0  0.1 274232  6008 tty1     Sl   18:28   0:00 /usr/lib/ibus/ibus-dconf
+gdm       1151  0.0  1.2 785300 50588 tty1     Sl   18:28   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gdm       1181  0.0  0.5 488636 22800 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       1184  0.0  0.1 271696  5988 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       1187  0.0  0.5 337556 20844 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       1190  0.0  0.5 726348 22528 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       1191  0.0  0.3 387124 13884 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       1197  0.0  0.1 277144  5852 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       1198  0.0  0.5 500512 22096 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       1202  0.0  0.5 1075812 24108 tty1    Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       1206  0.0  0.1 195404  4576 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       1214  0.0  0.5 511060 22724 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       1217  0.0  0.2 260428  8676 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       1221  0.0  0.1 195424  4708 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       1224  0.0  0.1 269140  5940 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       1229  0.0  0.2 298664  8572 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       1231  0.0  0.2 371616  9532 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       1235  0.0  0.2 328524  8264 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       1238  0.0  0.5 422400 21828 tty1     Sl+  18:28   0:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       1272  0.0  0.1 198376  6760 tty1     Sl   18:28   0:00 /usr/lib/ibus/ibus-engine-simple
+linuxba+  1318  0.0  0.1 205504  6116 tty2     Ssl+ 18:29   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+linuxba+  1320  1.0  2.9 800140 119940 tty2    Rl+  18:29   0:33 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+linuxba+  1331  0.0  0.3 553112 14928 tty2     Sl+  18:29   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+linuxba+  1488  2.2  7.4 3554664 301744 tty2   Rl+  18:29   1:11 /usr/bin/gnome-shell
+linuxba+  1525  0.2  0.2 428720  8116 tty2     Sl   18:29   0:09 ibus-daemon --xim --panel disable
+linuxba+  1529  0.0  0.1 274232  6872 tty2     Sl   18:29   0:00 /usr/lib/ibus/ibus-dconf
+linuxba+  1531  0.0  0.5 337920 21184 tty2     Sl   18:29   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+linuxba+  1611  0.0  0.5 584748 22580 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-power
+linuxba+  1612  0.0  0.2 342744 10188 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+linuxba+  1614  0.0  0.1 416752  5948 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+linuxba+  1615  0.0  0.1 269140  5848 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+linuxba+  1618  0.0  0.2 446260  9420 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+linuxba+  1621  0.0  0.2 371612  8288 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+linuxba+  1627  0.0  0.5 488524 22416 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+linuxba+  1638  0.0  0.2 328520  8204 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-sound
+linuxba+  1640  0.0  0.5 422276 21688 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+linuxba+  1647  0.0  0.1 271696  5864 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+linuxba+  1648  0.0  0.5 337584 20708 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+linuxba+  1652  0.0  0.5 726196 22168 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-color
+linuxba+  1654  0.0  0.3 463280 13912 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+linuxba+  1655  0.0  0.1 357988  7244 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+linuxba+  1656  0.0  0.5 500416 21828 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+linuxba+  1662  0.0  0.5 862604 23844 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+linuxba+  1666  0.0  0.1 271704  6004 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+linuxba+  1693  0.0  0.3 502180 12700 tty2     Sl+  18:29   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+linuxba+  1710  0.0  0.1 271936  6476 tty2     Sl+  18:29   0:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+linuxba+  1718  0.0  1.6 1087140 68500 tty2    Sl+  18:29   0:01 nautilus-desktop
+linuxba+  1765  0.0  0.1 198376  6672 tty2     Sl   18:29   0:03 /usr/lib/ibus/ibus-engine-simple
+linuxba+  1858  0.0  0.1  23268  5424 pts/0    Ss   18:29   0:01 bash
+linuxba+  1872  0.0  0.4 315680 16856 tty2     Sl   18:29   0:00 /usr/lib/ibus/ibus-engine-chewing --ibus -v 7
+linuxba+  1886  0.1  4.2 1369480 171764 tty2   SLl+ 18:30   0:05 /usr/bin/gnome-software --gapplication-service
+linuxba+  1888  0.0  0.7 682608 28948 tty2     Sl+  18:30   0:00 update-notifier
+linuxba+  1989  0.0  0.8 797832 34732 tty2     Sl+  18:31   0:00 /usr/lib/deja-dup/deja-dup-monitor
+linuxba+  2173  0.0  0.0  13220  3224 pts/0    T    19:15   0:00 bash test.sh
+linuxba+  2188  0.0  0.0  13220  1776 pts/0    T    19:15   0:00 bash test.sh
+linuxba+  2189  0.0  0.0   8360  1136 pts/0    T    19:15   0:00 awk FNR==1{print} $4>3{print}
+linuxba+  2190  0.0  0.0  16860  1160 pts/0    T    19:15   0:00 sed -e 5d
+linuxba+  2193  0.0  0.0  13220  3112 pts/0    T    19:15   0:00 bash test.sh
+linuxba+  2207  0.0  0.0  13220  1832 pts/0    T    19:15   0:00 bash test.sh
+linuxba+  2208  0.0  0.0   8360  1256 pts/0    T    19:15   0:00 awk FNR==1{print} $4>3{print}
+linuxba+  2209  0.0  0.0  16860  1140 pts/0    T    19:15   0:00 sed -e 5d
+linuxba+  2219  0.0  0.0  13220  3168 pts/0    T    19:16   0:00 bash test.sh
+linuxba+  2233  0.0  0.0  13220  1900 pts/0    T    19:16   0:00 bash test.sh
+linuxba+  2234  0.0  0.0   8360  1200 pts/0    T    19:16   0:00 awk FNR==1 {print} $4>3{print}
+linuxba+  2235  0.0  0.0  16860  1184 pts/0    T    19:16   0:00 sed -e 5d
+linuxba+  2251  0.0  0.0  13220  3108 pts/0    T    19:17   0:00 bash test.sh
+linuxba+  2265  0.0  0.0  13220  1836 pts/0    T    19:17   0:00 bash test.sh
+linuxba+  2266  0.0  0.0   8360  1144 pts/0    T    19:17   0:00 awk FNR==1 {print} $4>3{print}
+linuxba+  2267  0.0  0.0  16860  1128 pts/0    T    19:17   0:00 sed -e 5d
+linuxba+  2269  0.0  0.0  13220  3152 pts/0    T    19:18   0:00 bash test.sh
+linuxba+  2283  0.0  0.0  13220   256 pts/0    T    19:18   0:00 bash test.sh
+linuxba+  2284  0.0  0.0  13220  1716 pts/0    T    19:18   0:00 bash test.sh
+linuxba+  2285  0.0  0.0   8360  1264 pts/0    T    19:18   0:00 awk FNR==1 {print} $4>3{print}
+linuxba+  2286  0.0  0.0  16860  1132 pts/0    T    19:18   0:00 sed -e 5d
+linuxba+  2288  0.0  0.0  13220  3088 pts/0    T    19:19   0:00 bash test.sh
+linuxba+  2302  0.0  0.0  13220   256 pts/0    T    19:19   0:00 bash test.sh
+linuxba+  2303  0.0  0.0  13220  1716 pts/0    T    19:19   0:00 bash test.sh
+linuxba+  2304  0.0  0.0   8360  1192 pts/0    T    19:19   0:00 awk FNR==1 {print} $4>3 {print}
+linuxba+  2305  0.0  0.0  16860  1104 pts/0    T    19:19   0:00 sed -e 5d
+linuxba+  2309  0.0  0.0  13220  3120 pts/0    T    19:19   0:00 bash test.sh
+linuxba+  2323  0.0  0.0  13220   260 pts/0    T    19:19   0:00 bash test.sh
+linuxba+  2324  0.0  0.0  13220   260 pts/0    T    19:19   0:00 bash test.sh
+linuxba+  2325  0.0  0.0   8360  1148 pts/0    T    19:19   0:00 awk FNR==1 {print} $4>3 {print}
+linuxba+  2326  0.0  0.0  16860  1156 pts/0    T    19:19   0:00 sed -e 5d
+linuxba+  2353  0.0  0.0  13220  3300 pts/0    S+   19:21   0:00 bash test.sh
+linuxba+  2354  0.0  0.0  13220   248 pts/0    S+   19:21   0:00 bash test.sh
+linuxba+  2355  0.0  0.0  37708  3152 pts/0    R+   19:21   0:00 ps -au
